@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    password: Database2021!
+    url: jdbc:sqlserver://localhost:1434;database=Server
+    username: sa
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServer2012Dialect
+        format_sql: true
+    show-sql: true
